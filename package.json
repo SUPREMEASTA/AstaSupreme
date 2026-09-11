@@ -1,0 +1,34 @@
+{
+  "name": "octopus",
+  "version": "7",
+  "description": "WhatsApp bot base built with Baileys",
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "bot",
+    "goon"
+  ],
+  "license": "ISC",
+  "private": true,
+  "type": "commonjs",
+  "main": "./dev/tata.js",
+  "scripts": {
+    "start": "node .",
+    "check": "node --check snowi.js && node --check dev/cmd.js && node --check dev/consts.js && node --check dev/fuckpalant1r.js && node --check dev/functions.js && node --check dev/setting.js && node --check dev/tata.js",
+    "test": "npm run check"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@vansnowi/baileys": "^1.5.1",
+    "chalk": "^4.1.2",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.47",
+    "node-cache": "^5.1.2",
+    "performance-now": "^2.1.0",
+    "pino": "^9.6.0",
+    "yargs": "^17.7.2"
+  }
+}
